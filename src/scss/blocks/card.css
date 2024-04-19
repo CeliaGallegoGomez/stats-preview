@@ -24,14 +24,16 @@
   color: #ab5cdb;
 }
 .card__text {
+  width: 264px;
   color: rgba(255, 255, 255, 0.75);
   font-weight: 500;
   font-size: 15px;
+  line-height: 25px;
 }
 .card__numbers {
   display: flex;
   flex-direction: column;
-  height: 216px;
+  width: 264px;
   justify-content: space-around;
 }
 .card__number {
@@ -42,7 +44,7 @@
   height: 29px;
   justify-content: space-around;
 }
-.card__span--numbers {
+.card__subtitle {
   height: 25px;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.6);
